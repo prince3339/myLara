@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index');
 Route::get('/test', 'testController@show');
 
 Route::get('/pages', 'PagesController@page');
+
+Route::get('/cards', 'CardsController@index');
